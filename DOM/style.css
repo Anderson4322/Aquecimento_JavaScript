@@ -15,10 +15,14 @@ nav{
     gap: 2vh;
     padding: 6px;
 }
-nav p{
+nav button{
     font-size: 13px;
-    background-color: rgb(80, 80, 80);
     color: white;
+    padding: 5px;
+    background-color: rgb(50, 75, 155);
+}
+nav button:hover{
+    background-color: rgb(45, 51, 70);
 }
 #orgHeader{
     display: flex;
