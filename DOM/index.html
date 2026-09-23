@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Utilizando DOM</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,14 +27,28 @@
             <button id="btnNav4">Permite trabalhas com eventos</button>
             <button id="btnNav5">E acessados atraves do document</button>
         </nav>
+        <div id="controller">
+            <p>Usando ForEach para percorrer lista</p>
 
+        </div>
         <div id="getlista">
 
         </div>
 
         <dialog id="modal">
             <button id="closeModal">X</button>
-            <h3>Bem vindo ao modal</h3>
+            <div id="corpoModal">
+
+                <h3>Bem vindo ao modal</h3>
+                <p>O modal e uma janela que aparece sobre a pagina, geralmente usada para exibir informacoes importantes ou solicitar acao do usuario</p>
+                <form id="formModal">
+                    <label for="input1">Digite seu nome:</label>
+                    <input type="text" id="input1" placeholder="Digite seu nome">
+                    <label for="input2">Digite sua idade:</label>
+                    <input type="number" id="input2" placeholder="Digite sua idade">
+                    <button id="btnEnvioModal" type="submit">Enviar</button>
+                </form>
+            </div>
         </dialog>
     </div>
     <script src="./script.js"></script>

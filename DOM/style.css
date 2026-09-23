@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(255, 240, 224);
@@ -20,9 +20,11 @@ nav button{
     color: white;
     padding: 5px;
     background-color: rgb(50, 75, 155);
+    
 }
 nav button:hover{
     background-color: rgb(45, 51, 70);
+
 }
 #orgHeader{
     display: flex;
@@ -33,9 +35,10 @@ nav button:hover{
     padding: 5px;
     width: 40px;
     border: 2px solid rgb(0, 0, 0) ;
+
 }
 .cards{
-    width: 20vh;
+    width: auto;
     padding: 5px;
     background-color: antiquewhite;
     display: flex;
@@ -48,4 +51,48 @@ nav button:hover{
     display: flex;
     padding: 10px;
     gap: 2vh;
+}
+#controller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+} #controller p{
+    font-size: 20px;
+    color: rgb(14, 54, 184);
+}
+#formModal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#formModal input{
+    padding: 5px;
+}
+#formModal button{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(14, 54, 184);
+    color: white;
+    border: none;
+}
+#formModal button:hover{
+    background-color: rgb(50, 75, 155);
+}
+#corpoModal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#modal{
+    padding: 16px;
+}
+#closeModal{
+    padding: 5px;
+    width: 40px;
+    border: 2px solid rgb(0, 0, 0) ;
+}
+#closeModal:hover{
+    background-color: rgb(50, 75, 155);
+    color: white;
 }
